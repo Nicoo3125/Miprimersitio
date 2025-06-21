@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de pagina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dualipa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Dua Lipa</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"><strong>Home</strong></a>
+            </li>
+            <li><a href="dualipa.html"><strong>Dua Lipa</strong></a>
+            </li>
+            <li><a href="futurenostalgia.html"><strong>Future Nostalgia</strong></a>
+            </li>
+            <li><a href="radicaloptimism.html"><strong>Radical Optimism</strong></a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+             <article class="canciones">
+                <div class="img1" data-aos="flip-up"><img
+                        src="data:image/jpeg;base64,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"
+                        alt="">
+                </div>
+                <div class="textod">
+                    <h2>Album: Dua Lipa</h2>
+                    <p>
+                    <h3>"Dua Lipa": El Álbum Debut que la Lanzó al Estrellato Global</h3>
+                    <h4>El 2 de junio de 2017, Dua Lipa presentó al mundo su álbum debut homónimo, "Dua Lipa". Este
+                        trabajo no solo marcó el inicio formal de su carrera discográfica, sino que también la consolidó
+                        como una voz fresca y distintiva en el panorama pop internacional.</h4>
+                    </p>
+
+                    <p>
+                    <h3>Concepto e Inspiración</h3>
+                    <h4>El álbum es un viaje introspectivo y empoderador, una suerte de diario personal musicalizado.
+                        Dua Lipa lo concibió como un reflejo de su crecimiento, sus experiencias amorosas, desamores y
+                        la búsqueda de su propia voz. Inspirada en sus vivencias personales, cada canción explora temas
+                        de independencia femenina, fortaleza en las relaciones y la superación de rupturas. Es un disco
+                        que invita a la resiliencia y a encontrar la propia identidad en un mundo complejo.</h4>
+                    </p>
+
+                    <p>
+                    <h3>Sencillos y Canciones Destacadas</h3>
+                    <h4>"Dua Lipa" se convirtió en una máquina de éxitos con numerosos sencillos que resonaron en las
+                        listas de popularidad:
+
+                        <ul>
+                            <li>"Be the One": Uno de los primeros sencillos que atrajo la atención hacia ella.</li>
+                            <li>"Hotter than Hell": Un tema audaz que mostró su actitud desafiante.</li>
+                            <li>"Blow Your Mind (Mwah)": Una explosión de pop con una letra pegadiza.</li>
+                            <li>"IDGAF": Un himno de desinterés y empoderamiento post-ruptura.</li>
+                            <li>"New Rules": El mega-éxito que la catapultó a la fama mundial, convirtiéndose en un
+                                ícono de
+                                las
+                                "reglas" para superar a un ex. Su videoclip viral reforzó su mensaje de sororidad.</li>
+                        </ul>
+                        Otras canciones importantes del álbum incluyen "Genesis", "Lost in Your Light", "Garden", "No
+                        Goodbyes", "Thinking 'bout You", "Begging", "Homesick", "Dreams", "Room for 2", "New Love" y
+                        "Bad Together", cerrando con "Last Dance".
+                    </h4>
+                    </p>
+
+                    <p>
+                    <h3>Colaboraciones Notables</h3>
+                    <h4>El álbum contó con la participación de talentos que enriquecieron su sonido:
+
+                        "Lost in Your Light" (feat. Miguel): Una colaboración vibrante con el artista estadounidense de
+                        R&B, que añadió una capa de sofisticación al disco.
+                        Además, en las ediciones Deluxe del álbum, se incluyeron temas como "Bridge Over Troubled Water"
+                        (cover), "No Lie" (con Sean Paul) y "Kiss and Make Up" (con BLACKPINK), aunque estos dos últimos
+                        se lanzaron posteriormente como sencillos independientes que no formaron parte de la edición
+                        estándar original.</h4>
+                    </p>
+
+                    <p>
+                    <h3>Datos Curiosos y Reconocimientos</h3>
+                    <h4>
+                        <ul>
+                            <li>"Dua Lipa" fue nominado al Premio Mercury en 2018, un prestigioso galardón que reconoce
+                                los
+                                mejores álbumes del Reino Unido e Irlanda.</li>
+                            <li>El éxito del álbum la llevó a ganar el Brit Award a la Artista Revelación Británica y la
+                                Artista
+                                Solista Femenina Británica en 2018.</li>
+                            <li>Muchos consideran que el impacto visual de sus videos musicales, especialmente el de
+                                "New
+                                Rules", fue fundamental para la viralidad y el éxito masivo del álbum.</li>
+                        </ul>
+                        "Dua Lipa" no solo fue un exitoso debut comercial, sino que estableció la plantilla para su
+                        futuro sonido y la convirtió en un referente de una nueva ola de artistas pop con autenticidad y
+                        fuerza.
+                    </h4>
+                    </p>
+                </div>
+            </article>
+            <article class="todito">
+                <div class="variada">
+                    <P>
+                        <strong>
+                            <h3>Informacion variada</h3>
+                        </strong>
+                    </P>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 cartotas">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title premios">Premios</h3>
+                                <p class="card-text"><h5>Uno de los premios más prestigiosos que obtuvo gracias a este álbum
+                                    fue el Premio Grammy al Mejor Artista Nuevo en 2019, un reconocimiento crucial que
+                                    marcó su impacto global. Además, su colaboración "Electricity" con Silk City, también ganó un Grammy a
+                                    la Mejor Grabación Dance el mismo año.</h5>
+
+                                    <h5>En su país natal, Reino Unido, el álbum y su éxito la llevaron a dominar los Brit
+                                    Awards de 2018, donde se alzó con dos de los galardones más codiciados: Artista
+                                    Solista Femenina Británica y Artista Revelación Británica. El sencillo "New Rules"
+                                    también fue reconocido, ganando el premio a Mejor Sencillo en los BBC Radio 1's Teen
+                                    Awards de 2017.</h5></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">shows</h3>
+                                <p class="card-text"><p><h5>Dua lipa emprendió una serie de giras que la llevaron a escenarios de todo el mundo, consolidando su reputación como una potente intérprete en vivo. Sus shows de la era "The Self-Titled Tour" (2017-2018) fueron cruciales para conectar con sus fans y presentar el universo musical que había creado.
+
+la relevancia de estas giras radica en la constante energía y carisma que Dua Lipa desplegaba en cada presentación. Canciones como "New Rules", "IDGAF", "Be the One" y "Hotter Than Hell" se convirtieron en los himnos que el público cantaba a viva voz, transformando cada concierto en una fiesta de empoderamiento pop.
+
+La gira abarcó múltiples continentes, desde Europa y Norteamérica hasta Asia y Australia, permitiendo que millones de nuevos fans experimentaran su música en vivo por primera vez. Estos shows no solo demostraron su capacidad vocal y escénica, sino que también crearon la base de seguidores leales que la acompañarían en sus futuros éxitos. Cada parada fue un ladrillo en la construcción de su estatus global, mostrando su evolución de promesa a estrella internacional.</h5></p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title blanco"><a href="https://dualipa.com/" target="_blank"
+                                        rel="noopener noreferrer">Sitio oficial</a></h3>
+                                <p class="card-text"><p><h5>En este sitio podras encontar contenido oficial de Dua lipa, como:
+                                    merchandising, sus discos, accesorios, entre otras.</h5></p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="http://www.instagram.com/niicops?igsh=MWlrdjltZGJjbm5yZg==" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/Nicoo3125" target="_blank">Github</a></li>
+            <li>Telefono de contacto: 11 5525-9450</li>
+            <li>Mail: nicolassosaocampo@gmail.com</li>
+            <li>Sitio web de Nico :)</li>
+        </ul>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
