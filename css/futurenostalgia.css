@@ -1,0 +1,62 @@
+/*Css future nostalgia*/
+header {background-color: #FBECB2;}
+
+main {background-color: #FBECB2;}
+main section .canciones .textod ol {list-style-type:none; margin:0%; padding:0%;}
+main section .canciones .textod ul li {list-style-position:inside;}
+
+.todito .cartotas{
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-items: center;
+    margin:0px;
+}
+.todito p {
+    margin:0px;
+    padding:0px;
+}
+
+.variada{
+    color: white;
+    background-color: black;
+}
+
+.col{
+    margin:0px;
+    margin-bottom:0px;
+    margin-top:0px;
+    padding:0px;
+}
+
+.card{
+    background-color:gray;
+    margin:10px;
+    box-shadow:0px;
+    max-width:500px;
+}
+
+.card-body{
+    padding:15px;
+}
+
+.card-title{
+    margin-bottom:0px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.card-text{
+    color: white;
+    font-family: "Poppins", sans-serif;;
+}
+.col .blanco a:hover {color: white;}
+
+@media(max-width:431px){
+    .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+}
